@@ -7,4 +7,4 @@ cd build
 wget http://cmp.felk.cvut.cz/~pisa/apo/qtmips/gcc-mips-elf_7.4_macos.zip
 build_dir=$(pwd)
 cd /
-unzip "$build_dir"/gcc-mips-elf_7.4_macos.zip
+sudo unzip "$build_dir"/gcc-mips-elf_7.4_macos.zip
