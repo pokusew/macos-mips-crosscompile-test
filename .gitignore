@@ -30,3 +30,6 @@ captures
 
 /build/
 /src/sum2vars
+/src/*/depend
+/src/*/*.o
+/src/*/test
