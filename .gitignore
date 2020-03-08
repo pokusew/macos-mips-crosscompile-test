@@ -33,3 +33,4 @@ captures
 /src/*/depend
 /src/*/*.o
 /src/*/test
+/src/*/sum2vars
