@@ -1,6 +1,6 @@
 # macos-mips-crosscompile-test
 
-http://cmp.felk.cvut.cz/~pisa/apo/qtmips/gcc-mips-elf_7.4_macos.zip
+1. 👉 MIPS cross-compilation using Docker pokusew/devbuntu image on macOS, see [docker-compilation-test](https://github.com/pokusew/macos-mips-crosscompile-test/tree/master/src/docker-compilation-test)
 
 
 ## License
