@@ -1,0 +1,16 @@
+name: CI
+
+on: [push, pull_request]
+
+jobs:
+  build:
+
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [macOS-latest]
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install mips-elf-gcc
+        run: ./install.sh
