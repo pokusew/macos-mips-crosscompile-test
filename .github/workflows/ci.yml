@@ -15,4 +15,4 @@ jobs:
       - name: Install mips-elf-gcc
         run: ./install.sh
       - name: Test
-          run: ./test.sh
+        run: ./test.sh
